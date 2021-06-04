@@ -1,0 +1,56 @@
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+	background: #FC5C7D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+canvas[resize] {
+    width: 50%;
+    height: 100%;
+}
+
+img{
+	display: block;
+	border: 2px solid black;
+	border-radius: 15%;
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+h1{
+	text-align: center;
+	margin-top: 13%;
+	margin-bottom: 3%;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 5px;
+	font-size: 2.5em;
+}
+
+#mySelf{
+	height: 35%;
+	margin: 0 auto;
+}
+
+#portContent{
+	width:50%;
+	height: 100%;
+	float: right;
+}
+
+#iconDiv{
+	margin-top: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#iconDiv i{
+	color: black;
+	margin: 1% 1.85%;
+}
